@@ -1,6 +1,6 @@
 import './Calendar.css'
 
-export default function Calendar({ days, dates, currentEvent, handleCalendarItemEvent }) {
+export default function Calendar({ days, dates, handleCalendarItemEvent }) {
 
     return (
         <div className='calendar-contaier' onClick={handleCalendarItemEvent}>

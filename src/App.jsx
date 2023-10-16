@@ -61,7 +61,6 @@ function App() {
       <Calendar 
         days={days} 
         dates={dates}
-        currentEvent={currentEvent}
         handleCalendarItemEvent={handleCalendarItemEvent}
       />
     </div>
