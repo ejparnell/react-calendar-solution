@@ -1,0 +1,27 @@
+.holiday-yellow {
+  background-color: yellow;
+}
+
+.work-blue {
+  background-color: blue;
+}
+
+.errands-green {
+  background-color: green;
+}
+
+.sick-red {
+  background-color: red;
+}
+
+.calendar-events {
+  flex-basis: 25%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.highlight {
+  border: 2px solid black;
+}
